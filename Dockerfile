@@ -5,11 +5,7 @@ RUN apk add --no-cache git openssh
 WORKDIR /app
 COPY . ./
 
-ARG REACT_APP_MIXPANEL_PROJECT_TOKEN
-ENV REACT_APP_MIXPANEL_PROJECT_TOKEN=${REACT_APP_MIXPANEL_PROJECT_TOKEN}
-
 RUN yarn
-# unset this var after downloading the lib so the default one gets used in GKE
 
 RUN yarn build
 
