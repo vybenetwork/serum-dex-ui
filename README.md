@@ -6,6 +6,8 @@ It is a Decentralized Exchange where users can connect their wallets to buy/sell
 
 You'll need your own Trading View chart and datasources to run it.
 
+MixPanel was used as event analytics platform, you may remove those references when running this yourself.
+
 ## Available Scripts
 
 In the project directory, you can run:
