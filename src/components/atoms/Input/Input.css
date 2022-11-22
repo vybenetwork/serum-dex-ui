@@ -1,0 +1,26 @@
+.ant-input {
+    background: transparent;
+    text-align: right;
+    color: white;
+    font-family: 'Inconsolata';
+}
+
+.ant-input-prefix {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inconsolata';
+}
+
+.ant-input-suffix {
+    color: rgba(255, 255, 255, 0.5);
+    width: 3.5vw;
+    justify-content: right;
+    font-family: 'Inconsolata';
+}
+
+.ant-input-affix-wrapper {
+    padding: 8px 16px;
+}
+
+.ant-input-affix-wrapper:hover {
+    opacity: 0.80;
+}

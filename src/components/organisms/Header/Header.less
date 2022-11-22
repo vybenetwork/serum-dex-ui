@@ -1,0 +1,164 @@
+.vybe-header {
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.titles-header {
+    height: 6.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.wallet-dropdown-header {
+    height: 4.75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 20px;
+}
+
+.wallet-adapter-dropdown {
+    height: 4.75vh;
+    border-radius: 0.5rem;
+}
+
+.wallet-adapter-dropdown:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.wallet-adapter-button-trigger {
+    height: 4.75vh !important;
+}
+
+.header__select_wallet_button {
+    background-color: #71E0EC !important;
+    font-family: 'Inconsolata' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 15px !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase;
+    color: #141414 !important;
+    height: 4.75vh !important;
+}
+
+.header__select_wallet_button:hover {
+    opacity: 0.8;
+}
+.header__wallet_multi_button {
+    height: 4.75vh !important;
+    font-family: 'Inconsolata' !important;
+    letter-spacing: 0.08rem;
+    font-weight: 700 !important;
+}
+
+.header__wallet_multi_button--mobile {
+    font-size: 0px !important;
+    height: 4.75vh !important;
+    padding: 0px 8px !important;
+}
+
+.header__wallet_multi_button--mobile > .wallet-adapter-button-start-icon {
+    margin-right: 0px;
+}
+
+.ant-menu-inline-collapsed {
+    display: none;
+}
+
+.header__mobile_menu {
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    height: 100%;
+    background: #13161E !important;
+}
+
+.header__mobile_menu > .ant-menu-item, .ant-menu-submenu-title {
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    height: 34px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+}
+
+.header__mobile_menu > .ant-menu-item-selected {
+    background-color: #13161E !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.header__mobile_menu > .ant-menu-item-selected a {
+    background-color: #13161E !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.header__mobile_menu {
+    .ant-menu-inline.ant-menu-sub {
+        background: transparent;
+        font-size: 1.25rem;
+        
+        .ant-menu-item-selected {
+            background-color: transparent;
+        }
+    }
+}
+
+.header__titles_header_menu {
+    display: flex;
+    justify-content: space-between;
+    top: 12px;
+}
+
+.header__mobile_header_collapsed_open {
+    padding: 0px !important;
+}
+
+.header__dropdown_icon {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+
+    &:hover, &:focus {
+        background: #202533;
+    }
+}
+
+.header__dropdown_menu {
+    background: #202533;
+    padding: 0;
+    border-radius: 0.25rem;
+
+    .ant-dropdown-menu-item {
+        border-top: none !important;
+        padding: 12.5px 1rem;
+        letter-spacing: 0.2em;
+        font-size: 14px;
+        text-transform: uppercase;
+        min-width: 200px;
+        font-weight: 700;
+
+        .ant-dropdown-menu-item-icon {
+            min-width: 1rem;
+            margin-right: 1rem;
+            font-size: 1rem;
+        }
+
+        &:hover, &:focus {
+            background: #2E3548;
+        }
+    }
+}

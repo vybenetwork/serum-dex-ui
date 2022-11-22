@@ -1,0 +1,43 @@
+.ant-radio-button-wrapper {
+    height: 4vh;
+    line-height: 4vh;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+    width: 0;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    border-right: 0px solid rgba(255, 255, 255, 0.1);
+    border-left: 0px solid rgba(255, 255, 255, 0.1);
+}
+
+.ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child {
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+.button_group__button {
+    border: 0.25px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.button_group__button:hover {
+    color: rgba(255, 255, 255, 0.85) !important;
+    background: #2E3548 !important;
+    border: 0.25px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.button_group__button--market_select:hover {
+    opacity: 0.75 !important;
+}
+
+.button_group__button--market_select:first-child {
+    margin-left: 0px !important;
+}
+
+.button_group__button--market_select:last-child {
+    margin-right: 0px !important;
+}
+
+.ant-radio-button-wrapper {
+    border: none;
+}

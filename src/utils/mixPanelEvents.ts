@@ -1,0 +1,18 @@
+export const MIX_PANEL_EVENTS = {
+    WALLET_CONNECTED: { name: 'Wallet Connected' },
+    WALLET_DISCONNECTED: { name: 'Wallet Disconnected' },
+    MARKET_SELECTOR_CLICKED: { name: 'Market Selector Clicked' },
+    MARKET_CHANGED: { name: 'Market Changed' },
+    ORDER_PLACE_CALLED: { name: 'Order Placed Called' },
+    ORDER_PLACE_TX_CREATED: { name: 'Order Place Tx Created' },
+    ORDER_PLACE_ERROR: { name: 'Order Place Error' },
+    ORDER_PLACE_FAILED: { name: 'Order Place Failed' },
+    SEND_TRANSACTION_SUCCESS: { name: 'Transactions Sent Successfully' },
+    SEND_TRANSACTION_FAILED: { name: 'Sending Transaction Failed' },
+    CANCEL_ORDERS_CALLED: { name: 'Cancel Orders Called' },
+    SETTLE_FUNDS_CALLED: { name: 'Settle Funds Called' },
+    SETTLE_ALL_FUNDS_CALLED: { name: 'Settle All Funds Called' },
+    SETTLE_ALL_FUNDS_TX_CREATED: { name: 'Settle All Funds Tx Created' },
+    SETTLE_ALL_FUNDS_FAILED: { name: 'Settle All Funds Failed' },
+    CLOSE_ACCOUNT_CALLED: { name: 'Close Account Called' },
+};

@@ -1,0 +1,23 @@
+.ant-table {
+    background: transparent;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 0px !important;
+    text-align: center;
+}
+
+.ant-table-thead > tr > th {
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    background: transparent;
+}
+
+.ant-table-tbody > tr > td {
+    color: rgba(255, 255, 255, 0.85);
+    border: none;
+}
+
+.ant-table-row:hover td {
+    background: rgba(255, 255, 255, 0.1) !important;
+}

@@ -1,0 +1,91 @@
+.depth_tooltip_wrapper--ask {
+    border-top: 5px solid #FF5C5C;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 0.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.2);
+    background-color: #2E3548;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .depth_tooltip_wrapper--bid {
+    border-top: 5px solid #45C493;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 0.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.2);
+    background-color: #2E3548;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+  }
+  
+.depth_tooltip_wrapper--ask .depth_tooltip__title, .depth_tooltip_wrapper--bid .depth_tooltip__title {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding: 0.25rem;
+}
+  
+.depth_tooltip_wrapper--ask .depth_tooltip__value, .depth_tooltip_wrapper--bid .depth_tooltip__value {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+    padding: 0.25rem 0;
+}
+
+.depth_tooltip_wrapper--ask:after,
+.depth_tooltip_wrapper--ask::after,
+.depth_tooltip_wrapper--bid:after,
+.depth_tooltip_wrapper--bid::after {
+    position: absolute;
+    bottom: -105px;
+    right: -100px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    border-top: solid 10px #2E3548;
+}
+
+.depth_tooltip_wrapper--ask_side:after,
+.depth_tooltip_wrapper--ask_side::after {
+    position: absolute;
+    top: 40px;
+    right: -210px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: solid 10px #2E3548;
+    border-bottom: solid 10px transparent;
+    border-top: solid 10px transparent;
+}
+
+.depth_tooltip_wrapper--bid_side::after,
+.depth_tooltip_wrapper--bid_side:after {
+    position: absolute;
+    top: 40px;
+    left: -19px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-right: solid 10px #2E3548;
+    border-bottom: solid 10px transparent;
+    border-top: solid 10px transparent;
+}
