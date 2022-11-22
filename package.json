@@ -2,7 +2,6 @@
     "name": "dex",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://dex.vybenetwork.xyz/",
     "dependencies": {
         "@ant-design/icons": "^4.7.0",
         "@apollo/client": "^3.6.4",
